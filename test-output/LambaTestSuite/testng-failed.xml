@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [LambaTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="TestScenario3(failed)">
+    <parameter name="browser" value="Safari"/>
+    <parameter name="version" value="13.0"/>
+    <parameter name="platform" value="MacOS Catalina"/>
+    <classes>
+      <class name="com.lambdatest.TestScenario3">
+        <methods>
+          <include name="testScenario3"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lambdatest.TestScenario3 -->
+    </classes>
+  </test> <!-- TestScenario3(failed) -->
+</suite> <!-- Failed suite [LambaTestSuite] -->

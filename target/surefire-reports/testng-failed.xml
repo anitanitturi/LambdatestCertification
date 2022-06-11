@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [LambaTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="3" parallel="tests" name="TestScenario3(failed)" verbose="0">
+    <parameter name="browser" value="Safari"/>
+    <parameter name="version" value="13.0"/>
+    <parameter name="platform" value="MacOS Catalina"/>
+    <classes>
+      <class name="com.lambdatest.TestScenario3">
+        <methods>
+          <include name="testScenario3"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lambdatest.TestScenario3 -->
+    </classes>
+  </test> <!-- TestScenario3(failed) -->
+  <test thread-count="3" parallel="tests" name="TestScenario1(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="102"/>
+    <parameter name="platform" value="Windows 11"/>
+    <classes>
+      <class name="com.lambdatest.TestScenario1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testScenario"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.lambdatest.TestScenario1 -->
+    </classes>
+  </test> <!-- TestScenario1(failed) -->
+  <test thread-count="3" parallel="tests" name="TestScenario2(failed)" verbose="0">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="102"/>
+    <parameter name="platform" value="Windows 11"/>
+    <classes>
+      <class name="com.lambdatest.TestScenario2">
+        <methods>
+          <include name="testScenario2"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lambdatest.TestScenario2 -->
+    </classes>
+  </test> <!-- TestScenario2(failed) -->
+</suite> <!-- Failed suite [LambaTestSuite] -->

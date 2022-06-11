@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="LambaTestSuite" parallel="tests">
+
+<test name="TestScenario1">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="version" value="102"/>
+  <parameter name="platform" value="Windows 11"/>
+    <classes>
+      <class name="com.lambdatest.TestScenario1"/>
+    </classes>
+  </test>  
+
+ <test name="TestScenario2">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="version" value="102"/>
+  <parameter name="platform" value="Windows 11"/>
+    <classes>
+      <class name="com.lambdatest.TestScenario2"/>
+    </classes>
+  </test>  
+
+ <test name="TestScenario3">
+  <parameter name="browser" value="Safari"/>
+  <parameter name="version" value="13.0"/>
+  <parameter name="platform" value="MacOS Catalina"/>
+    <classes>
+      <class name="com.lambdatest.TestScenario3"/>
+    </classes>
+  </test>
+  </suite>
+
+  
