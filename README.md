@@ -15,6 +15,6 @@ To run the test classes in parallel provide the below command in terminal
 mvn test -D suite=parallel.xml
 Gitpod config
 With Gitpod, you can open any repository by prefixing its URL with gitpod.io/# - no configuration necessary. This is great to review code or quickly browse an open source project in a familiar environment where your favourite keyboard shortcuts are available.
-Here is the Gitpod url for my repo - gitpod.io/#https://github.com/anitanitturi/LambdatestCertification/tree/master
+Here is the Gitpod url for my repo - https://anitanittur-lambdatestc-ksgnnjhqjn7.ws-us47.gitpod.io/
 Then open Workspace if not already opened.
 Then go to Terminal and run the command mvn install -Dsuite=parallel.xml
